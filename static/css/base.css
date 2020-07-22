@@ -1,6 +1,7 @@
 html {
     height: 100%;
 }
+
 body {
     background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -8,6 +9,7 @@ body {
     color: #555;
     font-family: 'Lato';
 }
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -54,6 +56,10 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -71,9 +77,9 @@ body {
         right: 0;
         left: 0;
         z-index: 1030;
-    }
 
-    .header-container {
+    }    
+}
+.header-container {
         padding-top: 164px;
     }
-}
